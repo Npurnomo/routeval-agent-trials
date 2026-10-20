@@ -1,0 +1,1786 @@
+{
+  "p18": {
+    "s01": {
+      "payload": {
+        "response": "resolution-1"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s02": {
+      "payload": {
+        "response": "resolution-2"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s03": {
+      "payload": {
+        "response": "resolution-3"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s04": {
+      "payload": {
+        "response": "resolution-4"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s05": {
+      "payload": {
+        "response": "resolution-5"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s06": {
+      "payload": {
+        "response": "resolution-6"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s07": {
+      "payload": {
+        "response": "resolution-7"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s08": {
+      "payload": {
+        "response": "resolution-8"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s09": {
+      "payload": {
+        "response": "resolution-9"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s10": {
+      "payload": {
+        "response": "resolution-10"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s11": {
+      "payload": {
+        "response": "resolution-11"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s12": {
+      "payload": {
+        "response": "resolution-12"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s13": {
+      "payload": {
+        "response": "resolution-13"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s14": {
+      "payload": {
+        "response": "resolution-14"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s15": {
+      "payload": {
+        "response": "resolution-15"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s16": {
+      "payload": {
+        "response": "resolution-16"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s17": {
+      "payload": {
+        "response": "resolution-17"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s18": {
+      "payload": {
+        "response": null
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": "recorded post-charge failure"
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s19": {
+      "payload": {
+        "response": "resolution-19"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    },
+    "s20": {
+      "payload": {
+        "response": "resolution-20"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p18"
+      }
+    }
+  },
+  "p42": {
+    "s01": {
+      "payload": {
+        "response": "resolution-1"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s02": {
+      "payload": {
+        "response": "resolution-2"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s03": {
+      "payload": {
+        "response": "resolution-3"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s04": {
+      "payload": {
+        "response": "resolution-4"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s05": {
+      "payload": {
+        "response": "resolution-5"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s06": {
+      "payload": {
+        "response": "resolution-6"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s07": {
+      "payload": {
+        "response": "resolution-7"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s08": {
+      "payload": {
+        "response": "resolution-8"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s09": {
+      "payload": {
+        "response": "resolution-9"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s10": {
+      "payload": {
+        "response": "resolution-10"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s11": {
+      "payload": {
+        "response": "resolution-11"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s12": {
+      "payload": {
+        "response": "resolution-12"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s13": {
+      "payload": {
+        "response": "resolution-13"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s14": {
+      "payload": {
+        "response": "resolution-14"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s15": {
+      "payload": {
+        "response": "resolution-15"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s16": {
+      "payload": {
+        "response": "resolution-16"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s17": {
+      "payload": {
+        "response": "resolution-17"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s18": {
+      "payload": {
+        "response": null
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": "recorded post-charge failure"
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s19": {
+      "payload": {
+        "response": "resolution-19"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    },
+    "s20": {
+      "payload": {
+        "response": "resolution-20"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p42"
+      }
+    }
+  },
+  "p07": {
+    "s01": {
+      "payload": {
+        "response": "resolution-1"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s02": {
+      "payload": {
+        "response": "resolution-2"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s03": {
+      "payload": {
+        "response": "resolution-3"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s04": {
+      "payload": {
+        "response": "resolution-4"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s05": {
+      "payload": {
+        "response": "resolution-5"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s06": {
+      "payload": {
+        "response": "resolution-6"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s07": {
+      "payload": {
+        "response": "resolution-7"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s08": {
+      "payload": {
+        "response": "resolution-8"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s09": {
+      "payload": {
+        "response": "resolution-9"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s10": {
+      "payload": {
+        "response": "resolution-10"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s11": {
+      "payload": {
+        "response": "resolution-11"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s12": {
+      "payload": {
+        "response": "resolution-12"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s13": {
+      "payload": {
+        "response": "resolution-13"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s14": {
+      "payload": {
+        "response": "resolution-14"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s15": {
+      "payload": {
+        "response": "resolution-15"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s16": {
+      "payload": {
+        "response": "resolution-16"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s17": {
+      "payload": {
+        "response": "resolution-17"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s18": {
+      "payload": {
+        "response": null
+      },
+      "execution": {
+        "route": "fast",
+        "error": "recorded post-charge failure"
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s19": {
+      "payload": {
+        "response": "resolution-19"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    },
+    "s20": {
+      "payload": {
+        "response": "resolution-20"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p07"
+      }
+    }
+  },
+  "p63": {
+    "s01": {
+      "payload": {
+        "response": "resolution-1"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s02": {
+      "payload": {
+        "response": "resolution-2"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s03": {
+      "payload": {
+        "response": "resolution-3"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s04": {
+      "payload": {
+        "response": "resolution-4"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s05": {
+      "payload": {
+        "response": "resolution-5"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s06": {
+      "payload": {
+        "response": "resolution-6"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s07": {
+      "payload": {
+        "response": "resolution-7"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s08": {
+      "payload": {
+        "response": "resolution-8"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s09": {
+      "payload": {
+        "response": "resolution-9"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s10": {
+      "payload": {
+        "response": "resolution-10"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s11": {
+      "payload": {
+        "response": "resolution-11"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s12": {
+      "payload": {
+        "response": "resolution-12"
+      },
+      "execution": {
+        "route": "fast",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s13": {
+      "payload": {
+        "response": "resolution-13"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s14": {
+      "payload": {
+        "response": "resolution-14"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s15": {
+      "payload": {
+        "response": "resolution-15"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s16": {
+      "payload": {
+        "response": "resolution-16"
+      },
+      "execution": {
+        "route": "desk_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s17": {
+      "payload": {
+        "response": "resolution-17"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s18": {
+      "payload": {
+        "response": null
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": "recorded post-charge failure"
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s19": {
+      "payload": {
+        "response": "resolution-19"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": null
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    },
+    "s20": {
+      "payload": {
+        "response": "resolution-20"
+      },
+      "execution": {
+        "route": "hosted_review",
+        "error": null
+      },
+      "billing": {
+        "entries": [
+          {
+            "kind": "initial",
+            "usd": 0.0005
+          },
+          {
+            "kind": "review",
+            "usd": 0.008
+          }
+        ]
+      },
+      "record": {
+        "synthetic": true,
+        "policy": "p63"
+      }
+    }
+  }
+}
