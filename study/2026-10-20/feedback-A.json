@@ -1,0 +1,32 @@
+{
+  "record_version": "trial-feedback-1",
+  "track": "integration",
+  "condition": "stdlib",
+  "declared_client": "Codex desktop",
+  "declared_model": "unknown",
+  "setup_outcome": "Completed using the supplied fresh interpreter and Python standard library only.",
+  "first_difficulty": "Initially read submission and record-format docs from the outer repository root; corrected to the trial directory.",
+  "assumptions": [
+    "The exact served model identifier was not disclosed; reported unknown.",
+    "Declared review roles, not prices, determine escalation.",
+    "Known routes on failed attempts count toward required-review recall.",
+    "The contract defines synthetic whole-decision API costs; no other economic basis is inferred."
+  ],
+  "failures": [
+    "Initial document-path discovery error; preserved in discovery.md.",
+    "No evaluator or test failures. The malformed-invocation exit-2 run was an intentional check."
+  ],
+  "requested_improvement": "A small standard-library-safe reference protocol for app mapping and reusable measurement gates would reduce the custom evidence, metric, comparison and exit-code plumbing. Keep full charge-ledger preservation and independent owner gates explicit.",
+  "recommendation_file": "submission.json",
+  "would_use_again": "unsure",
+  "would_use_again_reason": "The focused offline task was manageable, but maintaining a custom comparator, preservation checks and command/evidence receipt adds responsibility as contracts expand.",
+  "assistance": "Assignment and fresh interpreter supplied by chair; no author coaching, human implementation help, subagents, Routeval imports or external sources.",
+  "release_executed": false,
+  "status": "complete",
+  "started_at": "2026-10-20T21:53:58+00:00",
+  "stopped_at": "2026-10-20T21:58:26.390596+00:00",
+  "elapsed_seconds": 268.390596,
+  "budget_seconds": 600,
+  "method": "UTC wall-clock difference: start printed by date -u in the first tool action (one-second resolution), stop sampled with datetime.now(timezone.utc) after receipt validation; environment setup excluded.",
+  "completed_within_budget": true
+}

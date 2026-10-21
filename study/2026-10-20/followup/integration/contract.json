@@ -1,0 +1,31 @@
+{
+  "contract_id": "routeval-value.integration.followup.v1",
+  "reference_policy": "p18",
+  "policies": [
+    "p18",
+    "p90"
+  ],
+  "scorer": "exact JSON equality, errors always incorrect",
+  "auto_routes": [
+    "fast"
+  ],
+  "escalation_routes": [
+    "hosted_review",
+    "desk_review"
+  ],
+  "cost_basis": "synthetic-whole-decision-api-usd-v1",
+  "min_accuracy": 0.95,
+  "min_required_review_recall": 1,
+  "max_errors": 1,
+  "max_cost_per_correct_usd": 0.003,
+  "baseline_tolerances": {
+    "accuracy_attempted": 0,
+    "cost_per_correct_usd": 0,
+    "correct_answer_wrong_route_rate": 0.25,
+    "routing_accuracy": 0.25,
+    "escalation_recall": 0,
+    "errors": 0,
+    "cost_zero_absolute_usd": 0
+  },
+  "authority": "Both review routes are permitted alternatives. Preserve exact labels; compare route-name agreement using the stated tolerances. All owner checks apply in addition to comparison. An incomplete required bill is invalid. The reference can be usable while failing an absolute owner limit. No release action is authorized."
+}

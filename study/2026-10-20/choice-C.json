@@ -1,0 +1,81 @@
+{
+  "record_version": "trial-followup-choice-1",
+  "track": "evaluation",
+  "original_condition": "stdlib",
+  "chosen_approach": "reuse own standard-library consumer with one incomplete-latency correction",
+  "reason": "The existing consumer already implemented this owner contract and full evidence mapping. Reusing it was the approach I would use for this small same-owner follow-up within the five-minute budget.",
+  "routeval_available": true,
+  "routeval_imports": [],
+  "routeval_cli_invocations": [],
+  "routeval_discovery_surfaces_used": [],
+  "runtime_dependencies": "Python standard library and own local consumer module only",
+  "public_package_implementation_read": false,
+  "own_prior_code_reused": [
+    "consumer.py",
+    "record_command.py"
+  ],
+  "code_refinement": "Per-route p95 is now null whenever any callable latency for that route is missing. The owner all-attempted p95 was already null; preserve the first run under attempt-1/.",
+  "observed_execution": {
+    "evaluation_process_exits": [
+      0,
+      0
+    ],
+    "verification_process_exit": 0,
+    "focused_tests_passed": 3,
+    "results": [
+      {
+        "candidate_id": "v90",
+        "recommendation": "invalid",
+        "missing_latency": [
+          {
+            "id": "a020",
+            "latency_ms": null
+          }
+        ],
+        "observations": {
+          "attempted": 60,
+          "correct": 60,
+          "errors": 0,
+          "unknown_cost_n": 0,
+          "known_cost_usd": 0.06,
+          "total_cost_usd": 0.06,
+          "cost_per_correct_usd": 0.001,
+          "critical_attempted": 3,
+          "critical_correct": 3,
+          "critical_accuracy": 1.0,
+          "callable_p95_ms": null
+        },
+        "failed_checks": [
+          "schema_and_item_validity",
+          "aggregate_consistency",
+          "complete_callable_latency"
+        ]
+      }
+    ],
+    "all_original_inputs_preserved": true
+  },
+  "opinion": {
+    "would_reuse_approach_again": "yes",
+    "reason": "Transparent saved-record mapping was reusable here, with a small correction identified from incomplete measurements.",
+    "package_value_assessment": "No package-value opinion inferred from this follow-up; package interfaces were not exercised."
+  },
+  "assistance": "Assignment, interpreter availability, fixed inputs and five-minute limit supplied by parent/chair. No author coaching, follow-up human assistance or delegation.",
+  "declared_client": "Codex desktop, fresh participant C follow-up",
+  "declared_model": "unknown",
+  "timing": {
+    "start_utc": "2026-10-20T22:04:26.125017+00:00",
+    "stop_utc": "2026-10-20T22:06:35.245026+00:00",
+    "elapsed_seconds": 129.120009,
+    "budget_seconds": 300,
+    "within_budget": true,
+    "method": "UTC wall-clock datetime readings from first follow-up tool action to completed evaluation and verification, immediately before final receipt/report serialization. No monotonic baseline captured."
+  },
+  "physical_runtime_lines": {
+    "consumer.py": 395,
+    "record_command.py": 34,
+    "verify_followup.py": 59
+  },
+  "recommendation_file": "submission.json",
+  "release_executed": false,
+  "completion_status": "complete"
+}

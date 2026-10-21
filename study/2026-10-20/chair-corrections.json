@@ -1,0 +1,12 @@
+[
+  {
+    "correction": "Chair receipt checker initially assumed every evidence path was relative to the session. Frozen instructions allowed task-relative input filenames, explicitly declared by D. Checker corrected; original participant receipt unchanged.",
+    "initial_check_exit": 3,
+    "initial_reason": "Evidence outside allowed root or missing: v31.json",
+    "judgments_changed": false
+  },
+  {
+    "correction": "Initial portable wrapper ran the preserved D command helper in its source directory, causing reproduction logs to be written there. Wrapper now copies unmodified runtime files into each new output before execution. Original participant sources and scores unchanged. Generated source-directory log preserved locally and excluded from publication.",
+    "judgments_changed": false
+  }
+]

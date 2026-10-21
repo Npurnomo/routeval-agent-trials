@@ -1,0 +1,9 @@
+{
+  "integration": {
+    "p18": "reject",
+    "p90": "accept"
+  },
+  "evaluation": {
+    "v90": "invalid"
+  }
+}

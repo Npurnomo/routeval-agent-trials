@@ -1,0 +1,9 @@
+{
+  "evaluation/contract.json": "aa20544fc19fdd2c5f4e557dfca1afda04e249ae45d17573d3a4ec33897e7667",
+  "evaluation/reference.json": "308d83287093f4a23d8077e571decc52171c22327bc11b4e5a86fda8ee138eef",
+  "evaluation/v90.json": "3ab3eeaa85777d34100d7343ebf500aafb51d9f3cce5c53c3d8517b0aa302aa7",
+  "integration/contract.json": "f048ed08a5df6043efb1109fdcd761236f587d02ffafd9ea46f836ab0caad3c7",
+  "integration/golden.jsonl": "b9ca363f57b323136fe84f4369bdbf128f3992c68b0b29eddb60c152eae34b23",
+  "integration/recorded.json": "423af456a509759307643b606221cc65fb2f3fcee6df86a296c63d0cc11c9c25",
+  "integration/support_app.py": "3e0c7e80f64ec7a9c15164a0306988692e3ca7227e42671a075e55a297eac981"
+}

@@ -1,0 +1,61 @@
+{
+  "record_version": "trial-feedback-1",
+  "track": "integration",
+  "condition": "routeval",
+  "declared_client": "Codex desktop controlled fresh participant B",
+  "declared_model": "unknown; inherited parent settings, no participant override",
+  "setup_outcome": "success: supplied fresh environment had verified public routeval 0.1.1 installed; no installation or dependencies added",
+  "first_difficulty": "Map nested whole-decision billing into Decision without turning a missing review charge into zero or losing the initial known partial charge.",
+  "assumptions": [
+    "Fixed contract and recorded fixtures are the owner authority. Both declared review route names count as reviews regardless of price.",
+    "Every policy runs sequentially once per original golden row; app lookup is offline and has no provider effects.",
+    "The designated reference is comparison-usable even if it fails an absolute owner cost ceiling."
+  ],
+  "failures": [
+    "Every policy retained its recorded s18 post-charge failure as an incorrect attempted outcome.",
+    "p63 has one unknown review charge: cost ceiling and baseline comparison cannot be certified.",
+    "The intentional malformed runner invocation returned exit 2; this is a tested error path, not a development failure."
+  ],
+  "development_failures": [],
+  "requested_improvement": "A public documented whole-decision ledger adapter or helper that preserves known partial charges alongside unknown whole totals would reduce application glue. Public Harness.run docstrings should explain returned artifact and invalid-comparison behavior.",
+  "recommendation_file": "submission.json",
+  "would_use_again": "yes",
+  "would_use_again_reason": "Public Harness and CLI produced full per-item artifacts, correct attempted denominators, role-aware recall and a reusable fixed-tolerance baseline gate; explicit owner limits and app ledger mapping still required custom code.",
+  "elapsed_seconds": 234.952646,
+  "timing": {
+    "started_at": "2026-10-20T21:53:49+00:00",
+    "stopped_at": "2026-10-20T21:57:43.952646+00:00",
+    "method": "UTC system-clock timestamp in first tool action, then datetime.now(timezone.utc) at completion; start resolution one second. Installation excluded.",
+    "budget_seconds": 600,
+    "completed_within_budget": true
+  },
+  "discovery": {
+    "allowed_sources": [
+      "assigned integration task directory",
+      "trial README.md",
+      "docs/submission.md",
+      "docs/record-format.md",
+      "installed package metadata README",
+      "public routeval exports and signatures/docstrings",
+      "routeval CLI help"
+    ],
+    "internal_code_inspection": false,
+    "internal_runtime_imports": false,
+    "terminal_table_scraping": false,
+    "bundled_templates_used": false
+  },
+  "assistance": "Parent supplied task, ownership boundary, constraints, interpreter and installed environment. No author/chair coaching, subagents, human assistance, hidden judgments or other participant work.",
+  "physical_authored_runtime_lines": {
+    "adapter.py": 73,
+    "batch.py": 65,
+    "runner.py": 157,
+    "verify.py": 109
+  },
+  "responsibility_split": {
+    "application_mapping": "adapter.py: 73 physical lines; app loading, nested result mapping, ledger completeness and known partial preservation",
+    "owner_policy_and_evidence": "runner.py: 157 physical lines; absolute contract checks plus policy selection, public package calls and evidence writing",
+    "evidence_and_process": "batch.py: 65 physical lines; command capture and neutral submission assembly",
+    "independent_verification": "verify.py: 109 physical lines; raw fixture-to-artifact consistency, partial bills, failure and route audits"
+  },
+  "release_executed": false
+}

@@ -1,0 +1,1584 @@
+{
+  "schema_version": "1",
+  "manifest": {
+    "run_id": "cbfef97b90424e22889c7704bf4ebc60",
+    "harness_version": "0.1.1",
+    "started_at": "2026-10-20T21:50:03.738003+00:00",
+    "finished_at": "2026-10-20T21:50:03.755175+00:00",
+    "status": "complete",
+    "git_sha": "23400658dbca03042fdae60c142c5980ec51d12b",
+    "config_hash": "512ddaf586dccdd3b5b79b607ac2901aa763739ff6e05d40a02af6cb10b541ad",
+    "golden_set": {
+      "path": null,
+      "sha256": "825691eb05cad1c5f73eb8026c86fea871824b401d7a3153c07a0eb3ccaaabeb",
+      "n": 60
+    },
+    "pricing_file": {
+      "source": "bundled",
+      "sha256": "0dfd5fc6bc28ac5ffe830623bde56f0572aa166c4f00cd2ae938dd21cd9106a8"
+    },
+    "scorer": {
+      "id": "routeval.scorers.exact",
+      "version": "0.1.0"
+    },
+    "route_policy": {
+      "auto_routes": [
+        "automatic"
+      ],
+      "escalation_routes": []
+    },
+    "cost_basis": "synthetic-saved-callable-usd-v1",
+    "note": "Synthetic recorded callable; no original service or queue latency is claimed."
+  },
+  "items": [
+    {
+      "id": "a001",
+      "input_hash": "68925e6e4dc1882321702e8ac1f7994546caddbcdde57416a7d11e92651deab6",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.15979213640093803,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a002",
+      "input_hash": "c80fb7277b0dde7d61ad4eb1b09f255ce389685c31066463c80f63f2b95b976d",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.023541972041130066,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a003",
+      "input_hash": "3940735582c2f230e2a2152b55b1e7f75ad133e64355b83dcc7100b8b9528939",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.013041775673627853,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a004",
+      "input_hash": "a33fab2b2a5f0718331a44e69e783edab2f40dd42c67007645f0e57899cbc35e",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.010082963854074478,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a005",
+      "input_hash": "f687b89eb4bfd2637bb6bc92f15c59f6092d7e0228099789c7f1ed9a56b8d317",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.009208917617797852,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a006",
+      "input_hash": "82af9b1f015e23cea09a1c00adb0797de3a6b4729ae61563cd140e5c86ae2294",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.011374708265066147,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a007",
+      "input_hash": "d56718217d80c3cd52efe2f67c61386b098d10d9e9ea3b6b56e75dd5323fed62",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.023875385522842407,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a008",
+      "input_hash": "f88c119d421bb919d5cc748c80a244bc06c45274998bb41f6baff15ddf57c258",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00962521880865097,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a009",
+      "input_hash": "c405dd8e157f6550231d281792925c181b9024ba810b1c180350de2a57c19452",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.012083910405635834,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a010",
+      "input_hash": "48ec6ad4de72c5d16a7f11bcc2ca50521d2fb7f1f0327fccd990d47c10a6d923",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008833128958940506,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a011",
+      "input_hash": "4b0e7e19c43dd90d55925c6716daf2ceaa518042519553ea89d86212e6c8e241",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008707866072654724,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a012",
+      "input_hash": "307d4ad664b46535b4b2a25ef6b8bbb3551abeece9c1471d1b2e234aa87f8af9",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008541624993085861,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a013",
+      "input_hash": "358a51270dfec894a8c9ea3df060756f7c314d0527a6fbc791106c61c0a4df99",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00841636210680008,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a014",
+      "input_hash": "dd87632c7fbf35670a2a9791c164d6cbbc01ab0cf68e9438f38b7d9f60a4330e",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008417293429374695,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a015",
+      "input_hash": "034bcde4cfb66ef19210ef8c1f7a1146403863f39469e42c0121a0bc5b5f7458",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008666887879371643,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a016",
+      "input_hash": "d9ff5de9e51effabc9c233d10a04a8040574e4636b0ddb01230d7fcbeeb889fb",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00837491825222969,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a017",
+      "input_hash": "016f39842cd02166f3e797405a2832c8f5a31e57caefddac0c0208ebfc25a633",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008416827768087387,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a018",
+      "input_hash": "35230876f39be13f75409ab8d46c23197f1f6131410e7a25dd50235769b8d6c4",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008666887879371643,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a019",
+      "input_hash": "98157c4bdb3ddb5ead3a391a0aeb7a45aa7a408f5d5bb59d15d480305ad152a5",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008541159331798553,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a020",
+      "input_hash": "6069c497b8fd32f3d71d65d2f83c6c1b912088364d24570a5105dcb1ee1c1eb2",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": null,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a021",
+      "input_hash": "4333f0c3396e6231ed69e1d932ff5c46cb056e01a5d0363ff06a65617cb30518",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a022",
+      "input_hash": "979e67c31a630ff0bd61d20a41ae4b224aa0c69290f5c49a39334e240d3b7184",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.010166782885789871,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a023",
+      "input_hash": "2af36349019d966be35807a8902cfb943f7a2bc958d15d11f29191a10559c9d7",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008457805961370468,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a024",
+      "input_hash": "b64d7075adc7577cc78dc7df7841de195039a9898b8a872cf67bfc9183cdf755",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00833394005894661,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a025",
+      "input_hash": "651cc22898b86433f9627f3420a5f93fe2463376637be8266e8dc9266b90ea02",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008291564881801605,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a026",
+      "input_hash": "62445b4a1391b9c7c1e973a04b83e4cdeaf336f310c08636a154c59b7de561d9",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008125323802232742,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a027",
+      "input_hash": "d5120f34db4d0eaf46316636bb859d63348d988dee31548e8a9d632168f3c76f",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00837491825222969,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a028",
+      "input_hash": "d17632a70de7dc8ebe62bc0a37aa459dd1c5b5cce42480debe9df83f685c1198",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008332543075084686,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a029",
+      "input_hash": "4cbd77712abf405df4e6af8a8210585e29b365f9347c41b8de6e823716aba6cb",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a030",
+      "input_hash": "c2bea943b5283f8618fb70a5d53f6a8b167af306f17657d3fe6b5b2c3f33ec96",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00800006091594696,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a031",
+      "input_hash": "d734dadad796169c19e6b4b75a4cfe078fae0b2ee678a45a5f83883594b31864",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008249655365943909,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a032",
+      "input_hash": "d9696527553dda7c3c84bc51179c45c4f7817c2606de6cca7e4f64b88bdaf1cc",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008167233318090439,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a033",
+      "input_hash": "ff8080ea11e3a98943e5810266aaf84c3cdf3e506e2c5a2d6f0bfcfebf333b65",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008333008736371994,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a034",
+      "input_hash": "97817e7e4ede26d1342cd246cf19d18211cf8983f4c5f8c306d9cf3149176e8b",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008124858140945435,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a035",
+      "input_hash": "f6de55e460c4e521f1cbedc91b626e86ac32fee24ba5ca83a2938d6bbb398f7e",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008292030543088913,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a036",
+      "input_hash": "f501ad7150d38e6e9206783e1f14e5bc570aee7a382d99ff23a390f803c0794c",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008207745850086212,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a037",
+      "input_hash": "0b7651a9c7de0ada97ca3b2fd5f4119099faea3d871f09f86106d8d06e7a8514",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008457805961370468,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a038",
+      "input_hash": "81413d226f1b1537673b11c11bbb2e383489dbfe0f1b05e2d5a0d75e2c6127c2",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.0100000761449337,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a039",
+      "input_hash": "76e6fd09fd27aff0251f836ca022fca5b4285ca964e3c5960778a40c024b17fe",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008584000170230865,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a040",
+      "input_hash": "e8065e92b9e8c85441b50b211f0276ef3c3c2cc786be03ff76bf2a082ee9ac69",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008292030543088913,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a041",
+      "input_hash": "08bf18d7b9e78a145a138986ce4e08ba793f930f192c8710ac6422535de3ca92",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008541624993085861,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a042",
+      "input_hash": "064d905fcb1303b2664f10d71ebcee0526e1e93be3e46d0a4510004f68569282",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00833394005894661,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a043",
+      "input_hash": "6f346a4778d6d78362d1d251d44edcc045a7313e18b81bcd82d2558b3d7d85d9",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a044",
+      "input_hash": "6602790bdf84b52c3dc60f1f4b836b2d16fe3d20d61983224f8817e9236bd5e1",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00820821151137352,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a045",
+      "input_hash": "103ea53f1f05a7c43c73c0fae4d9c600fe0ac48c43d1d65dcddf2992a0c420e0",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008292030543088913,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a046",
+      "input_hash": "c7b2e143918150d6d68361e6f9418a288d8b8eed23dc22d161af21ad05dc7426",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008166767656803131,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a047",
+      "input_hash": "c16365b05e24fb56b42bfb58043bb8736466c935eec29e9875a0ed621f8929e9",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a048",
+      "input_hash": "d6ecda71de41007d1f6b591f3d29b65a7ec5eb19a9f4021b92f8dcc1e49e9470",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008500181138515472,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a049",
+      "input_hash": "9109e27ec08de0a56c7154192a6a68c40045c5dc2bca536e548180c6d3157885",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008291099220514297,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a050",
+      "input_hash": "7d3f68023dfea58323462e7dec8439f87e8839182df5da53d0125050df3b923b",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008167233318090439,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a051",
+      "input_hash": "cda48a47f5bece135e2e5c4f999ca18aa195b745006d3634571c4e02e1223846",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008207745850086212,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a052",
+      "input_hash": "a5ab8b5c59f150c618578b1b3ad31b6512707644a5c298402ff2397e02ba5dc5",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a053",
+      "input_hash": "981d87e45641c27f9c042e898eddaf42a5a494fafe678593a3864af7eb3e6bf3",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a054",
+      "input_hash": "11e5d219e1d0a15c7fae53d09fba4ba4a4e0c04ef15de5b3148ee6548c017ff5",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00837491825222969,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a055",
+      "input_hash": "a2b508a0476745ddbd110fd44dfe92830fde0acfc7de005853b043be0a788028",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a056",
+      "input_hash": "8f342aa7aec3d642698441b967bf4c31b6114fe0e9b26352062bf36360e554bf",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008124858140945435,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a057",
+      "input_hash": "e595468a59e824bca82f4ced12b6e996e04ec3ade95b816d963a9d6028c17f72",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "routine",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a058",
+      "input_hash": "b5d5618197bb18838d98bbeaebb51634ad36aa1991e2630c4f348532a5f40466",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "critical",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.00820821151137352,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a059",
+      "input_hash": "5269ad308a7781ec493286cbf127c0939efd008c9a20b59db2242291d6c9572d",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "critical",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008250121027231216,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    },
+    {
+      "id": "a060",
+      "input_hash": "8d5ffe4e75cdf931604f44736edabe487deae9efc1853c24a6833e7369905fac",
+      "expected": "completed",
+      "expected_route": "automatic",
+      "tier": "critical",
+      "answer": "completed",
+      "correct": true,
+      "route": "automatic",
+      "cost_usd": 0.001,
+      "cost_source": "reported",
+      "model": null,
+      "tokens": {
+        "in": 0,
+        "out": 0
+      },
+      "latency_ms": 0.008209142833948135,
+      "stages": {
+        "source": {
+          "synthetic": true
+        }
+      },
+      "error": null,
+      "error_stage": null
+    }
+  ],
+  "aggregates": {
+    "attempted": 60,
+    "succeeded": 60,
+    "errors": 0,
+    "measurement_errors": 0,
+    "accuracy_attempted": 1.0,
+    "per_route": {
+      "automatic": {
+        "n": 60,
+        "share": 1.0,
+        "accuracy": 1.0,
+        "errors": 0,
+        "known_cost_usd": 0.06,
+        "cost_usd": 0.06,
+        "mean_cost_usd": 0.001,
+        "unknown_cost_n": 0,
+        "p95_latency_ms": 0.013041775673627853
+      }
+    },
+    "economics": {
+      "known_cost_usd": 0.06,
+      "total_cost_usd": 0.06,
+      "cost_per_correct_usd": 0.001,
+      "cost_complete": true,
+      "unknown_cost_n": 0,
+      "deflection_rate": 1.0,
+      "auto_routes": [
+        "automatic"
+      ]
+    },
+    "routing": {
+      "n_labelled": 60,
+      "label_coverage": 1.0,
+      "routing_accuracy": 1.0,
+      "grid": {
+        "route_right_verdict_right": 60,
+        "route_right_verdict_wrong": 0,
+        "route_wrong_verdict_right": 0,
+        "route_wrong_verdict_wrong": 0
+      },
+      "correct_answer_wrong_route_rate": 0.0,
+      "lucky_hit_rate": 0.0,
+      "escalation_routes": [],
+      "escalation_precision": null,
+      "escalation_recall": null,
+      "n_required_escalations": 0,
+      "n_observed_escalations": 0
+    }
+  }
+}

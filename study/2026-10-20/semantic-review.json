@@ -1,0 +1,41 @@
+{
+  "reviewed_code": [
+    "A/evaluate.py",
+    "B/adapter.py",
+    "B/runner.py",
+    "C/consumer.py",
+    "D/consumer.py"
+  ],
+  "scope": "Focused inspection of supplied-task paths; not a general security or untrusted-container audit",
+  "findings": [
+    {
+      "area": "integration",
+      "result": "Both retain 20 attempted rows per policy, charged failures, route roles independent of zero review price, unknown whole bill and known charge subtotal. Both apply absolute owner gates separately from baseline eligibility."
+    },
+    {
+      "area": "evaluation",
+      "result": "Both enforce fixed 60 IDs, per-ID protected fields, compatibility, cost and callable-latency completeness, critical cohort and nearest-rank latency. Both preserve critical failure when unknown billing makes the candidate invalid."
+    },
+    {
+      "area": "package scope",
+      "result": "B uses Harness for recording/scoring/aggregates/baseline and CLI for validation. D uses native CLI plus public exact scorer, but manually reconstructs saved aggregates and watched deltas to produce structured evidence. No private runtime imports or terminal-table scraping found."
+    },
+    {
+      "area": "evidence completeness",
+      "result": "All 986 check evidence links resolve after supporting the permitted task-relative input namespace; source hashes match. Link resolution does not establish semantic correctness by itself."
+    },
+    {
+      "area": "in-session corrections",
+      "result": "C retained two pre-final revisions with evidence/validation refinements; D retained one pre-final revision with shared-null reporting and recorded-decimal changes. Candidate judgments were unchanged. These are separate from chair fixes."
+    },
+    {
+      "area": "caller limitations",
+      "result": "These are task-specific prototypes. A both-null comparator and general malformed-container behavior are not generalized guarantees. D validates reference through native comparison but still trusts assigned reference authority. C relies on recorded correctness under matching scorer declarations; D additionally checks public exact scorer consistency."
+    }
+  ],
+  "product_hypotheses": [
+    "Structured public comparison output may reduce duplicate saved-artifact metric/comparison code; measure with a new controlled task.",
+    "A ledger-preserving adapter example and Harness.run return/invalid-state documentation may reduce integration glue mistakes.",
+    "Explicit owner critical-cohort/latency/target checks must remain visible; native baseline pass does not establish owner acceptance."
+  ]
+}

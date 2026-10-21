@@ -1,0 +1,48 @@
+{
+  "record_version": "trial-feedback-1",
+  "track": "evaluation",
+  "condition": "stdlib",
+  "declared_client": "Codex desktop, fresh participant C",
+  "declared_model": "unknown",
+  "setup_outcome": "success: supplied fresh Python interpreter; no installation or external dependency used",
+  "first_difficulty": "Manually separating baseline scope from independent owner critical-cohort and callable-latency requirements while reconciling the full saved-record schema.",
+  "assumptions": [
+    "The supplied reference is the authority for population and protected per-ID targets.",
+    "Recorded correctness is interpretable only with preserved targets and matching declared scorer identity/version.",
+    "Explicit finite per-item cost is treated as the complete synthetic callable cost under the unchanged declared basis; billing authenticity is unchecked.",
+    "Aggregate reconciliation permits only float serialization noise (relative 1e-12, absolute 1e-14); fixed baseline gates use round-trip Decimal comparisons without epsilon.",
+    "Null baseline metrics on both sides are skipped under the documented rule; no escalation-role requirement is inferred."
+  ],
+  "failures": [],
+  "refinements": [
+    "Initial evaluation succeeded. Preserved attempt-1 before strengthening missing-field/strict-JSON robustness and replacing virtual evidence paths with real relative paths.",
+    "Preserved attempt-2 before adding explicit owner-contract and reference evidence pointers. Recommendations did not change.",
+    "Eight initial focused tests and nine final focused tests passed; all evaluation/test subprocesses exited zero."
+  ],
+  "requested_improvement": "A reusable public schema validator and structured comparison API with explicit critical-cohort, full-latency, and protected-target hooks would reduce manual mapping and evidence-plumbing work. This is a workflow request, not a claim about the uninspected package.",
+  "recommendation_file": "submission.json",
+  "would_use_again": "yes",
+  "would_use_again_reason": "The standard-library approach is transparent and adequate for small offline saved-record audits; its handwritten schema and comparison checks need maintenance for broader reuse.",
+  "elapsed_seconds": 398.680316,
+  "timing": {
+    "start_utc": "2026-10-20T21:53:43.141624+00:00",
+    "stop_utc": "2026-10-20T22:00:21.821940+00:00",
+    "elapsed_seconds": 398.680316,
+    "budget_seconds": 600,
+    "within_budget": true,
+    "method": "Python datetime.now(timezone.utc) at the first tool action and after substantive evaluation and output verification, immediately before final receipt serialization. Wall-clock subtraction; no monotonic-clock baseline was captured. Initial environment installation excluded.",
+    "completion_status": "complete"
+  },
+  "assistance": "The parent/chair supplied the assignment, fixed documents, interpreter, directory and budget. No author coaching, follow-up human assistance, subagents or package implementation assistance.",
+  "physical_authored_runtime_lines": {
+    "consumer.py": 395,
+    "focused_checks.py": 129,
+    "record_command.py": 34
+  },
+  "responsibility_split_physical_lines": {
+    "application mapping": 185,
+    "owner policy": 124,
+    "evidence/process plumbing": 249
+  },
+  "release_executed": false
+}

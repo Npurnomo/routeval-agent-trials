@@ -1,0 +1,79 @@
+{
+  "scored_at": "2026-10-21T13:16:34.636143+00:00",
+  "protected_files_verified": 7,
+  "correct_judgments": 6,
+  "sessions": [
+    {
+      "session": "A",
+      "track": "integration",
+      "original_condition": "stdlib",
+      "recommendations": {
+        "p18": "reject",
+        "p90": "accept"
+      },
+      "correct_judgments": 2,
+      "observed_approach": "stdlib",
+      "root_package_imports_in_top_level_files": [],
+      "choice_record_sha256": "e65533a1611bb1c5588b1bf25fee393a3caab975560213a13dcd061fc3482799",
+      "submission_sha256": "34395bf1e79748b99db13be2501b9c2f523f7194ef29428491bfde140af5f4f8"
+    },
+    {
+      "session": "B",
+      "track": "integration",
+      "original_condition": "routeval",
+      "recommendations": {
+        "p18": "reject",
+        "p90": "accept"
+      },
+      "correct_judgments": 2,
+      "observed_approach": "routeval",
+      "root_package_imports_in_top_level_files": [
+        {
+          "file": "adapter.py",
+          "line": 10,
+          "module": "routeval"
+        },
+        {
+          "file": "runner.py",
+          "line": 13,
+          "module": "routeval"
+        }
+      ],
+      "choice_record_sha256": "8cd9cf0ea2113302aebcae938a7f27071892e138f552571423dc1da7e483eb70",
+      "submission_sha256": "6c4387854d062241b58b262bf6c1699d7882bff68179b2115fa3e7d76e023ce6"
+    },
+    {
+      "session": "C",
+      "track": "evaluation",
+      "original_condition": "stdlib",
+      "recommendations": {
+        "v90": "invalid"
+      },
+      "correct_judgments": 1,
+      "observed_approach": "stdlib",
+      "root_package_imports_in_top_level_files": [],
+      "choice_record_sha256": "13f50f1c61dbce5a184eb0cf74243f676913a5e60af2cf24bacc6f62be64e503",
+      "submission_sha256": "99eb18981878f6ad2a8b6e711f3cbbbb76d59658f3be8bff1b5c0833f5aeeff1"
+    },
+    {
+      "session": "D",
+      "track": "evaluation",
+      "original_condition": "routeval",
+      "recommendations": {
+        "v90": "invalid"
+      },
+      "correct_judgments": 1,
+      "observed_approach": "routeval",
+      "root_package_imports_in_top_level_files": [
+        {
+          "file": "consumer.py",
+          "line": 14,
+          "module": "routeval"
+        }
+      ],
+      "choice_record_sha256": "739baea8e65a9fd7ed507c7514b3380a70402377a2f2da7ac725e0aaf27c7ed7",
+      "submission_sha256": "48a336b15ac79ea60650bf710ea1c48ff2fbf5e5f1143bcae37e7918bef2dc7d"
+    }
+  ],
+  "interpretation": "Each participant reused the approach developed in its assigned condition. Both controls declined to inspect or try the available package. Warm-code and same-contract carryover prevent interpreting this as general package preference."
+}

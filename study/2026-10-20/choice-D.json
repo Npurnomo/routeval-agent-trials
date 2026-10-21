@@ -1,0 +1,60 @@
+{
+  "record_version": "trial-followup-choice-1",
+  "track": "evaluation",
+  "participant": "D",
+  "chosen_approach": "Reuse my Python owner-policy consumer with Routeval native saved-artifact comparison.",
+  "package_version": "0.1.1",
+  "actual_package_imports": [
+    "from routeval import exact"
+  ],
+  "actual_package_cli_use": [
+    {
+      "argv": [
+        "<followup-environment>/bin/routeval",
+        "compare",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/followup/evaluation/v90.json",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/followup/evaluation/reference.json",
+        "--tolerances",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/sessions/D/followup/tolerances.json"
+      ],
+      "exit": 3
+    },
+    {
+      "argv": [
+        "<followup-environment>/bin/routeval",
+        "compare",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/followup/evaluation/v90.json",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/followup/evaluation/reference.json",
+        "--tolerances",
+        "<workspace>/reports/routeval-package-value-pilot-2026-10-20/sessions/D/followup/tolerances.json"
+      ],
+      "exit": 3
+    }
+  ],
+  "actual_reuse": {
+    "files": [
+      "consumer.py",
+      "run_command.py"
+    ],
+    "copied_physical_lines": 350,
+    "changed_consumer_lines": 2,
+    "diff": "reuse.diff"
+  },
+  "reason": "Existing owner-policy code covers this contract, while native comparison supplies useful schema, compatibility and baseline evidence. Reusing both avoids reimplementing working checks.",
+  "assistance": "Follow-up task assignment and equally available preinstalled public wheel only; no outcome feedback, coaching, delegation or human code help.",
+  "opinions": {
+    "would_choose_again": "yes",
+    "reason": "A saved-run CLI validity receipt complements the application-specific checks; a public structured compare result would reduce evidence plumbing."
+  },
+  "timing": {
+    "start_utc": "2026-10-20T22:05:52+00:00",
+    "stop_utc": "2026-10-20T22:07:33.209745+00:00",
+    "elapsed_seconds": 101.209745,
+    "budget_seconds": 300,
+    "within_budget": true,
+    "measurement_method": "System UTC wall-clock subtraction; first follow-up tool date output at one-second resolution to final artifact-generation timestamp. Installation excluded."
+  },
+  "recommendation_file": "submission.json",
+  "original_inputs": "inputs/",
+  "command_log": "commands.json"
+}

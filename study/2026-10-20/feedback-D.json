@@ -1,0 +1,32 @@
+{
+  "record_version": "trial-feedback-1",
+  "track": "evaluation",
+  "condition": "routeval",
+  "declared_client": "Codex desktop",
+  "declared_model": "unknown",
+  "setup_outcome": "Success using the preinstalled verified public Routeval 0.1.1 wheel offline; no installation or extra dependencies needed.",
+  "first_difficulty": "Trial README/docs were beneath routeval-agent-trials rather than the workspace root; corrected after initial missing-file errors.",
+  "assumptions": [
+    "Trusted reference per-ID labels and contract are authoritative for this saved-case exercise.",
+    "Declared synthetic costs are whole-decision costs under the fixed cost basis, without independent billing authentication.",
+    "Callable latencies are saved synthetic callable measurements; no production queue/service latency claim."
+  ],
+  "failures": [
+    "Initial documentation lookup returned missing-file errors; preserved in setup-discovery.md.",
+    "Initial evidence labelled shared-null escalation recall as pass and used reconstructed baseline numbers; corrected to unavailable/skipped and recorded-decimal comparison. Original outputs preserved in attempt-1/."
+  ],
+  "requested_improvement": "Provide a public structured compare result API or --output JSON with validation diagnostics and watched-metric results. Native comparison is useful but owner critical-cohort, latency and protected-target checks still need application code.",
+  "recommendation_file": "submission.json",
+  "would_use_again": "yes",
+  "would_use_again_reason": "Native schema/compatibility/baseline checks give useful independent evidence; the application still must enforce owner requirements and protected population/targets.",
+  "timing": {
+    "start_utc": "2026-10-20T21:58:12+00:00",
+    "stop_utc": "2026-10-20T22:03:01.011447+00:00",
+    "elapsed_seconds": 289.011447,
+    "budget_seconds": 600,
+    "within_budget": true,
+    "measurement_method": "System UTC wall-clock subtraction. Start is first tool shell date output (one-second resolution); stop is artifact-finalization timestamp. No installation time included; not monotonic timing."
+  },
+  "assistance": "Task assignment and offline verified-wheel installation only; no author coaching, human implementation help, subagents, providers or network.",
+  "discovery": "Installed metadata README, documented CLI help and public signatures/docstrings only; no implementation inspection or private source imports."
+}

@@ -1,0 +1,38 @@
+{
+  "record_version": "trial-followup-choice-1",
+  "track": "integration",
+  "condition": "stdlib",
+  "chosen_approach": "reuse own standard-library evaluator",
+  "package_available": "Routeval 0.1.1 supplied in shared environment; not independently inspected",
+  "actual_routeval_imports": [],
+  "actual_routeval_cli_commands": [],
+  "routeval_public_export_inspection": false,
+  "routeval_implementation_reused": false,
+  "reason": "The fixed follow-up retains the same support_app interface and contract structure. My own evaluator already preserves complete results and implements the required owner and baseline gates, so I reused it unchanged.",
+  "choice_recorded_before_execution": "plan.md",
+  "observed_reuse": {
+    "evaluator_source": "../evaluate.py",
+    "copied_evaluator": "evaluate.py",
+    "source_sha256": "c35f6417e26e227ea78e391df3c3cae719fe99a4d7e33f363336e075bad65b65",
+    "copy_sha256": "c35f6417e26e227ea78e391df3c3cae719fe99a4d7e33f363336e075bad65b65",
+    "byte_identical": true,
+    "runtime_reused_lines": 255,
+    "runtime_new_lines": 48,
+    "verification_new_lines": 65
+  },
+  "assistance": "Chair supplied assignment and shared interpreter environment. No outcome feedback, author coaching, human implementation help, delegation or external sources.",
+  "opinion": {
+    "would_use_chosen_approach_again": "yes",
+    "scope": "same application interface and fixed contract structure",
+    "reason": "Existing measured code can be reused directly. Broader contracts would warrant reconsidering maintenance of custom gate/evidence plumbing."
+  },
+  "recommendation_file": "submission.json",
+  "status": "complete",
+  "release_executed": false,
+  "started_at": "2026-10-20T22:04:05+00:00",
+  "stopped_at": "2026-10-20T22:06:01.831712+00:00",
+  "elapsed_seconds": 116.831712,
+  "budget_seconds": 300,
+  "method": "UTC wall-clock difference from first follow-up tool date -u (one-second resolution) to final datetime.now(timezone.utc); supplied environment setup excluded.",
+  "completed_within_budget": true
+}

@@ -1,0 +1,23 @@
+{
+  ".gitignore": "cc700bc8360db54fbf1fa3489d184da487183c4975d037bc0629bf840ec2676b",
+  "LICENSE": "f2b5ea83c1ad58650f9085c08da49658f0f2892c7a34daa5282cab4f2c2f3edd",
+  "README.md": "8bb6438f76d1f93b4a02c0da8e429ad8f93254c6cd8431e91f1c28a61d58e4c0",
+  "docs/record-format.md": "233a0944590249c06341051766140b35e6cb43d15426d9fa63f188b7ced1a3ae",
+  "docs/submission.md": "18ec1b6916206b4df70bf902db7b2adc73d7f756ffee1dce3de312f4e388b6bb",
+  "requirements-routeval.txt": "4f80aa1e997fda354661925b6a63bae13adedfd3ea332b2d85e3e77cd3782af3",
+  "tasks/evaluation/TASK.md": "3f59d43245ee0ddd052107cc8824c4c14ccc6b12d8b39a48bc429637e2d36d57",
+  "tasks/evaluation/contract.json": "1ff3a296f52280d12d5473c844c918593994fdf705ad4d9d8a0f4b13dc74d276",
+  "tasks/evaluation/reference.json": "308d83287093f4a23d8077e571decc52171c22327bc11b4e5a86fda8ee138eef",
+  "tasks/evaluation/v09.json": "20248ffbbba524ed01b91400ad19bc94b2d6f4096a84318ac43578e97939c2e8",
+  "tasks/evaluation/v15.json": "5059a6e35461c4908254092d6329c9d013a369ccf907718ee2549f2f20e4ffc4",
+  "tasks/evaluation/v22.json": "e404d0779da33c846da0b175c1d17fcafc553365ac21f67973a800fba82490a4",
+  "tasks/evaluation/v31.json": "5a3045f81d36769ad1ab2f114010c28da9ebb6b85dba5d84231d56e768e8c536",
+  "tasks/evaluation/v56.json": "414f0b1c5ee898e56209c9f6296f2348415c0f15a35f616a630d1e839a3bb199",
+  "tasks/evaluation/v77.json": "db7b7f6c93b8c17ad46144d75454bbe1521ddcb89dfc5f0d5b02478e26713d58",
+  "tasks/evaluation/v84.json": "ae14d046cceb54154ea30b45620705e472145ec44f26822abc6e9925ce52b5b3",
+  "tasks/integration/TASK.md": "1517c818cfcf221dc8edce66008121ef68b965506d10ce3fad3e98e1e9ca8c59",
+  "tasks/integration/contract.json": "d97311c1b1ac804ae11fde87f8eb6c8deb12857c932bf9750843df09c8adbeca",
+  "tasks/integration/golden.jsonl": "b9ca363f57b323136fe84f4369bdbf128f3992c68b0b29eddb60c152eae34b23",
+  "tasks/integration/recorded.json": "9887659bd0100157226b9d6c28054a325a6a0bfad5b3f9ab25e47e9166c146ca",
+  "tasks/integration/support_app.py": "3e0c7e80f64ec7a9c15164a0306988692e3ca7227e42671a075e55a297eac981"
+}

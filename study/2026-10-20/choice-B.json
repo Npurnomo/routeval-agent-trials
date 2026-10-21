@@ -1,0 +1,60 @@
+{
+  "record_version": "trial-followup-choice-1",
+  "track": "integration",
+  "condition": "routeval",
+  "chosen_approach": "Reuse own application mapping and owner-policy runner with public Routeval Harness and exact scorer",
+  "reason": "The existing mapping handles the nested app/charge schema; the package already produces auditable full artifacts and compares fixed-tolerance routing metrics. Reuse avoids rewriting metric definitions.",
+  "chosen_at": "2026-10-20T22:04:36.502782+00:00",
+  "planned_package_imports": [
+    "routeval.Decision",
+    "routeval.Harness",
+    "routeval.exact"
+  ],
+  "planned_cli": [
+    "routeval compare"
+  ],
+  "actual_package_imports": [
+    "from routeval import Decision",
+    "from routeval import Harness, exact"
+  ],
+  "actual_cli": [
+    {
+      "command": "routeval compare",
+      "invocations": 2,
+      "evidence": [
+        "p18/native-comparison-command.json",
+        "p90/native-comparison-command.json"
+      ],
+      "terminal_output_parsed": false
+    }
+  ],
+  "assistance": "Parent supplied follow-up assignment, fixed input location and shared installed environment. No author coaching, other sessions or delegation.",
+  "opinion": "Would reuse because full artifacts and comparison gates are useful; this stated reason is distinct from measured execution.",
+  "package_version": "0.1.1",
+  "execution_complete": true,
+  "timing": {
+    "started_at": "2026-10-20T22:04:12+00:00",
+    "stopped_at": "2026-10-20T22:05:27.694275+00:00",
+    "elapsed_seconds": 75.694275,
+    "budget_seconds": 300,
+    "method": "UTC system clock from the first follow-up tool action to final artifact writing; start resolution one second.",
+    "completed_within_budget": true
+  },
+  "observed_reuse": {
+    "copied_runtime_files": [
+      "adapter.py",
+      "runner.py",
+      "batch.py",
+      "verify.py"
+    ],
+    "adaptation": "Only batch/audit input location and the audit success-count message changed. Original sources unchanged.",
+    "physical_runtime_lines": {
+      "runner.py": 157,
+      "adapter.py": 73,
+      "batch.py": 65,
+      "verify.py": 109
+    },
+    "changed_physical_runtime_lines": 3
+  },
+  "comparison_feedback_received_before_choice": false
+}

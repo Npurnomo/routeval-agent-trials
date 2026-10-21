@@ -1,0 +1,38 @@
+{
+  "solutions/integration/stdlib/evaluate.py": {
+    "participant": "A",
+    "original_sha256": "c35f6417e26e227ea78e391df3c3cae719fe99a4d7e33f363336e075bad65b65",
+    "public_sha256": "c35f6417e26e227ea78e391df3c3cae719fe99a4d7e33f363336e075bad65b65",
+    "changes": "none; original participant runtime file"
+  },
+  "solutions/integration/routeval/adapter.py": {
+    "participant": "B",
+    "original_sha256": "fae401859efa6c5c10eb73348e2d25a7290a3245fbe69d6f7de9da29bc3087e1",
+    "public_sha256": "fae401859efa6c5c10eb73348e2d25a7290a3245fbe69d6f7de9da29bc3087e1",
+    "changes": "none; original participant runtime file"
+  },
+  "solutions/integration/routeval/runner.py": {
+    "participant": "B",
+    "original_sha256": "0204055ab27121493a701a43aa9e1f29f5f2f1c7c477e347353a5bb0f3d43147",
+    "public_sha256": "0204055ab27121493a701a43aa9e1f29f5f2f1c7c477e347353a5bb0f3d43147",
+    "changes": "none; original participant runtime file"
+  },
+  "solutions/evaluation/stdlib/consumer.py": {
+    "participant": "C",
+    "original_sha256": "ea479b7ce0790573249a35dc84b18b4392ec709929dce8f80757c81b6869d40a",
+    "public_sha256": "ea479b7ce0790573249a35dc84b18b4392ec709929dce8f80757c81b6869d40a",
+    "changes": "none; original participant runtime file"
+  },
+  "solutions/evaluation/routeval/consumer.py": {
+    "participant": "D",
+    "original_sha256": "d60bd914fbd2dc4420df4745be43c10fedcd8f2d55305cd31dec8f45f3bbad2e",
+    "public_sha256": "d60bd914fbd2dc4420df4745be43c10fedcd8f2d55305cd31dec8f45f3bbad2e",
+    "changes": "none; original participant runtime file"
+  },
+  "solutions/evaluation/routeval/run_command.py": {
+    "participant": "D",
+    "original_sha256": "d28387b78f861593196b4a678b9aa42f68adcd1aa9c52cdc0ccdcf015e7da6e0",
+    "public_sha256": "d28387b78f861593196b4a678b9aa42f68adcd1aa9c52cdc0ccdcf015e7da6e0",
+    "changes": "none; original participant runtime file"
+  }
+}

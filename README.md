@@ -40,10 +40,25 @@ Generating feedback needs no GitHub login. An owner can review and submit the
 result later. Full private application records should stay local; public
 feedback should use the synthetic fixtures or a reviewed reproduction.
 
-Results and reference solutions will be added after the original four
-submissions have been frozen and scored. They must never replace the original
-submissions. No reusable skill or external-hosted evaluation is included in this
-first pilot.
+## Run it or contribute feedback
+
+Read [participation instructions](docs/participate.md) to run either task in a
+fresh session and save feedback without a login. A local receipt checker verifies
+input hashes, candidate coverage and evidence links. The GitHub issue template
+provides a place for reviewed feedback after repository publication.
+
+The [October 20 pilot](study/2026-10-20/README.md) is complete: 22/22 submitted
+judgments matched the frozen expected outcomes. Plain Python and Python with
+Routeval both succeeded. All four agents reused their original approach on the
+optional follow-up; the two controls did not try Routeval. This is a small
+synthetic controlled study, not external-user demand or a general superiority
+claim.
+
+[Preserved participant solutions](solutions/README.md) can be replayed locally
+with the supplied wrapper. They produce full evidence and real command logs.
+Original local submissions and revisions were preserved separately; public
+runtime-file digests, scores, feedback and method are in this repository.
+No reusable skill or externally hosted agent evaluation is included.
 
 ## License
 

@@ -1,0 +1,36 @@
+{
+  "A": {
+    "receipt_checks": "pass",
+    "candidates": 4,
+    "input_digests": 5,
+    "evidence_links": 36,
+    "scope": "Shape, local links and recorded input digests; policy semantics and authenticity unchecked"
+  },
+  "B": {
+    "receipt_checks": "pass",
+    "candidates": 4,
+    "input_digests": 5,
+    "evidence_links": 40,
+    "scope": "Shape, local links and recorded input digests; policy semantics and authenticity unchecked"
+  },
+  "C": {
+    "receipt_checks": "pass",
+    "candidates": 7,
+    "input_digests": 9,
+    "evidence_links": 518,
+    "scope": "Shape, local links and recorded input digests; policy semantics and authenticity unchecked"
+  },
+  "D": {
+    "receipt_checks": "pass",
+    "candidates": 7,
+    "input_digests": 10,
+    "evidence_links": 392,
+    "scope": "Shape, local links and recorded input digests; policy semantics and authenticity unchecked"
+  },
+  "original_file_integrity": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true
+  }
+}

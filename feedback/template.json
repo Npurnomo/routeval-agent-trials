@@ -1,0 +1,18 @@
+{
+  "record_version": "trial-feedback-1",
+  "track": "integration",
+  "condition": "routeval",
+  "client": "unknown",
+  "model": "unknown",
+  "package_version": "0.1.1",
+  "setup_outcome": "Replace with the actual installation or prepared-environment result",
+  "first_difficulty": "Replace with the first concrete difficulty, or none",
+  "assumptions": [],
+  "failures": [],
+  "requested_improvement": "Replace with one concrete improvement, or none",
+  "recommendation_file": "submission.json",
+  "would_use_again": "unsure",
+  "reason": "Replace with a reason grounded in this task",
+  "assistance": [],
+  "timing": null
+}

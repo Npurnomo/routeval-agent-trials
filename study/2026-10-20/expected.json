@@ -1,0 +1,50 @@
+{
+  "integration": {
+    "p18": {
+      "recommendation": "reject",
+      "attempted": 20,
+      "correct": 19,
+      "errors": 1,
+      "total_cost_usd": 0.074,
+      "required_reviews": 8,
+      "reviews_reached": 8
+    },
+    "p42": {
+      "recommendation": "accept",
+      "attempted": 20,
+      "correct": 19,
+      "errors": 1,
+      "total_cost_usd": 0.042,
+      "required_reviews": 8,
+      "reviews_reached": 8
+    },
+    "p07": {
+      "recommendation": "reject",
+      "attempted": 20,
+      "correct": 19,
+      "errors": 1,
+      "total_cost_usd": 0.01,
+      "required_reviews": 8,
+      "reviews_reached": 0
+    },
+    "p63": {
+      "recommendation": "invalid",
+      "attempted": 20,
+      "correct": 19,
+      "errors": 1,
+      "total_cost_usd": null,
+      "unknown_cost_n": 1,
+      "required_reviews": 8,
+      "reviews_reached": 8
+    }
+  },
+  "evaluation": {
+    "v31": "accept",
+    "v84": "reject",
+    "v09": "invalid",
+    "v56": "invalid",
+    "v22": "reject",
+    "v77": "reject",
+    "v15": "invalid"
+  }
+}
