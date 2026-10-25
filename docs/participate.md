@@ -50,8 +50,8 @@ Copy feedback/template.json into the output directory and replace its example
 text. Choose the correct track/condition and state your actual client/model, or
 unknown. Leave timing null unless measured. Include the first point of friction,
 the exact failed command if any, what you expected, and a small reproduction.
-The local record needs no login. A human can review it and open a GitHub issue
-using the trial-feedback template once this repository has been published.
+The local record needs no login. A human can review it and submit it through the
+[trial feedback form](https://github.com/Npurnomo/routeval-agent-trials/issues/new?template=trial-feedback.md).
 
 Use the synthetic fixtures for public reports. Keep private app records and
 credentials out of the feedback. Keep preference, successful task completion and

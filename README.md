@@ -44,8 +44,9 @@ feedback should use the synthetic fixtures or a reviewed reproduction.
 
 Read [participation instructions](docs/participate.md) to run either task in a
 fresh session and save feedback without a login. A local receipt checker verifies
-input hashes, candidate coverage and evidence links. The GitHub issue template
-provides a place for reviewed feedback after repository publication.
+input hashes, candidate coverage and evidence links. After reviewing a result,
+[open the trial feedback form](https://github.com/Npurnomo/routeval-agent-trials/issues/new?template=trial-feedback.md).
+Creating the local record needs no login; submitting it to GitHub does.
 
 The [October 20 pilot](study/2026-10-20/README.md) is complete: 22/22 submitted
 judgments matched the frozen expected outcomes. Plain Python and Python with
